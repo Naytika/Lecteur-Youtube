@@ -13,6 +13,7 @@
 		5DEC923A215B7C4200D116BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DEC9238215B7C4200D116BB /* LaunchScreen.storyboard */; };
 		5DEC9242215B824600D116BB /* TableauController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEC9241215B824600D116BB /* TableauController.swift */; };
 		5DEC9244215B853C00D116BB /* Chansons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEC9243215B853C00D116BB /* Chansons.swift */; };
+		5DEC9246215B96C500D116BB /* ChansonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEC9245215B96C500D116BB /* ChansonCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5DEC923B215B7C4200D116BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DEC9241215B824600D116BB /* TableauController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableauController.swift; sourceTree = "<group>"; };
 		5DEC9243215B853C00D116BB /* Chansons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chansons.swift; sourceTree = "<group>"; };
+		5DEC9245215B96C500D116BB /* ChansonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChansonCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				5DEC923B215B7C4200D116BB /* Info.plist */,
 				5DEC9241215B824600D116BB /* TableauController.swift */,
 				5DEC9243215B853C00D116BB /* Chansons.swift */,
+				5DEC9245215B96C500D116BB /* ChansonCell.swift */,
 			);
 			path = "lecteur Youtube";
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				5DEC9242215B824600D116BB /* TableauController.swift in Sources */,
 				5DEC9230215B7C4100D116BB /* AppDelegate.swift in Sources */,
+				5DEC9246215B96C500D116BB /* ChansonCell.swift in Sources */,
 				5DEC9244215B853C00D116BB /* Chansons.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
