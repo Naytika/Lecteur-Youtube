@@ -52,7 +52,7 @@ class TableauController: UIViewController, UITableViewDelegate, UITableViewDataS
         return 150
     }
     
-    // Permet d'itenfier le segue avec le nom
+    // Permet d'identifier le segue avec le nom
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let chanson = chansons[indexPath.row]
         performSegue(withIdentifier: identifiantSegue, sender: chanson)
