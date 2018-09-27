@@ -15,6 +15,7 @@ class TableauController: UIViewController, UITableViewDelegate, UITableViewDataS
     
     var chansons = [Chanson]()
     let identifiantCell = "ChansonCell"
+    let identifiantSegue = "VersVideo"
     
     
     
@@ -51,9 +52,21 @@ class TableauController: UIViewController, UITableViewDelegate, UITableViewDataS
         return 150
     }
     
+    // Permet d'itenfier le segue avec le nom
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let chanson = chansons[indexPath.row]
+        performSegue(withIdentifier: identifiantSegue, sender: chanson)
+    }
     
     
-    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == identifiantSegue {
+        if let nouveauController = segue.destination as? VideoController {
+            nouveauController.chanson = sender as? Chanson
+        }
+    }
+}
+
     func ajouterChanson() {
         chansons = [Chanson]()
         let chrisSharma =  Chanson(artiste: "Chris", titre: "Grimpe", code: "CH8zKm5N048")

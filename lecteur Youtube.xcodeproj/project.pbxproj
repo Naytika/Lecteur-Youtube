@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D69DFB8215CBC0200A085ED /* VideoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D69DFB7215CBC0200A085ED /* VideoController.swift */; };
 		5DEC9230215B7C4100D116BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEC922F215B7C4100D116BB /* AppDelegate.swift */; };
 		5DEC9235215B7C4100D116BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DEC9233215B7C4100D116BB /* Main.storyboard */; };
 		5DEC9237215B7C4200D116BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DEC9236215B7C4200D116BB /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D69DFB7215CBC0200A085ED /* VideoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoController.swift; sourceTree = "<group>"; };
 		5DEC922C215B7C4100D116BB /* lecteur Youtube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lecteur Youtube.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DEC922F215B7C4100D116BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DEC9234215B7C4100D116BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				5DEC9241215B824600D116BB /* TableauController.swift */,
 				5DEC9243215B853C00D116BB /* Chansons.swift */,
 				5DEC9245215B96C500D116BB /* ChansonCell.swift */,
+				5D69DFB7215CBC0200A085ED /* VideoController.swift */,
 			);
 			path = "lecteur Youtube";
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D69DFB8215CBC0200A085ED /* VideoController.swift in Sources */,
 				5DEC9242215B824600D116BB /* TableauController.swift in Sources */,
 				5DEC9230215B7C4100D116BB /* AppDelegate.swift in Sources */,
 				5DEC9246215B96C500D116BB /* ChansonCell.swift in Sources */,

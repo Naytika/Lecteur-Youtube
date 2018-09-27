@@ -46,7 +46,7 @@ class ChansonCell: UITableViewCell {
         miniature.image = #imageLiteral(resourceName: "logo")
         
         if let url = URL(string: self.chanson.baseURLMiniature) { // ERREUR Normallement c'est chanson.miniatureURL
-            let session = URLSession.shared
+            let session = URLSession.shared // permet d'aller acceder aux methodes de cette session
             let task = session.dataTask(with: url) { (data, response, error) in
                 if let imageData = data, let image = UIImage(data: imageData) {
                     DispatchQueue.main.async {
